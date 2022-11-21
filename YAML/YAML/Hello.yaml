@@ -1,0 +1,33 @@
+"apple" : "I am a red fruit"  # a key-value pair #the colon must be followed by a space
+1: "this is Kunal's roll number"
+---
+# lists or arrays All members of a list are lines beginning at the same indentation level starting with a "- " (a dash and a space)
+Fruits:
+- apple
+- mango
+- banana
+- Apple
+---
+cities: 
+ - new delhi
+ - mumbai
+ - gujarat
+---
+cities: [new delhi, mumbai, gujarat]
+---
+{mango: "yellow fruit", age: 56} 
+
+
+# error
+foo: somebody said I should put a colon here: so I did
+windows_drive: c:
+
+# but this will work
+windows_path: c:\windows
+
+# You have to quote hash values using colons followed by a space or the end of the line:
+foo: 'somebody said I should put a colon here: so I did'
+windows_drive: 'c:'
+# alternatively, you can use double quotes:
+
+...
